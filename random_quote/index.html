@@ -25,7 +25,24 @@
             <span class="quote" id="quote"></span>
             <i class="fas fa-quote-right"></i>
         </h1>
+        <p class="author" id="button"></p>
+        <hr />
+        <div class="buttons">
+            <!-- Buttons to tweet the quote -->
+            <a 
+            class="twitter"
+            id="tweet"
+            data-size="large"
+            rel="noopener noreference"
+            target="_blank"
+            href="https://twitter.com/intent/tweet?text=Greetings">
+            <i class="fab fa-twitter"></i>
+            </a>
+            <!-- Add button for new quote button was generated -->
+            <button class="next" onclick="getNewQuote()">Next Quote</button>
+        </div>
     </div>
+    <script src="script.js"></script>
 </body>
 
 </html>
